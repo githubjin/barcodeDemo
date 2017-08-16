@@ -239,14 +239,16 @@ const styles = StyleSheet.create({
     fontFamily: "iconfont"
   },
   scanLine: {
-    alignSelf: "center"
+    alignSelf: "center",
+    width: "100%"
   },
   scanLiner: {
     borderBottomWidth: 1,
     borderBottomColor: "red",
     width: "100%",
     height: 2,
-    elevation: 2
+    elevation: 2,
+    backgroundColor: "red"
   },
   centerContainer: {
     ...Platform.select({
